@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>VertiCard Gallery Page</title>
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
-  <!-- Magnific Popup core CSS file -->
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}" />
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-style.css') }}" />
-<!--
-Verticard Template
-https://templatemo.com/tm-533-verticard
-
-Template re-distribution is NOT allowed on any kind of download website. Thank you.
-
--->
-</head>
-
+{% block body %}
 <body>
   <div class="tm-page-container mx-auto">
     <header class="tm-header text-center">
@@ -137,4 +117,4 @@ Template re-distribution is NOT allowed on any kind of download website. Thank y
   </script>
 
 </body>
-</html>
+{% endblock %}
