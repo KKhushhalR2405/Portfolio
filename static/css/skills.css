@@ -40,10 +40,10 @@ body
 }
 
 .container:hover .skills{
-	opacity: 0.5;
+	opacity: 0.05;
 }
 
-.cotainer .skills:hover{
+.container .skills:hover{
 	opacity: 1;
 	transform: scale(1.1);
 }
@@ -111,3 +111,20 @@ body
 	background: linear-gradient(45deg, #1fe6ff, #673AB7);
 	
 }
+.container .skills:nth-child(2) .percent .progress{
+	background: linear-gradient(45deg, #1fe6ff, #673AB7);
+	
+}
+.container .skills:nth-child(3) .percent .progress{
+	background: linear-gradient(45deg, #1fe6ff, #673AB7);
+	
+}
+.container .skills:nth-child(4) .percent .progress{
+	background: linear-gradient(45deg, #1fe6ff, #673AB7);
+	
+}
+.container .skills:nth-child(5) .percent .progress{
+	background: linear-gradient(45deg, #1fe6ff, #673AB7);
+	
+}
+
