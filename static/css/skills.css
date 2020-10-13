@@ -107,12 +107,12 @@ body
 		width : 0;
 	}
 }
-.container .skills:nth-child(1) .percent .progress{
+.container .skills:nth-child(even) .percent .progress{
 	background: linear-gradient(45deg, #1fe6ff, #673AB7);
 	
 }
-.container .skills:nth-child(2) .percent .progress{
-	background: linear-gradient(45deg, #1fe6ff, #673AB7);
+.container .skills:nth-child(odd) .percent .progress{
+	background: linear-gradient(45deg, #ffee54, #ff00ca);
 	
 }
 .container .skills:nth-child(3) .percent .progress{
