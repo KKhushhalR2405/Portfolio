@@ -22,6 +22,10 @@ def index():
 def gallery():
 	return render_template("gallery.html")
 
+@app.route("/skills")
+def skills():
+	return render_template("skills.html")
+
 @app.route("/contact", methods = ['GET','POST'])
 def contact():
 
