@@ -65,11 +65,14 @@ p {
   color: #999A9B;
 }
 
-.tm-nav > ul > li.active > a,
-.tm-nav > ul > li > a:hover,
-.tm-nav > ul > li > a:focus {
-  color: #0299CC;
+.tm-nav .active a:hover{
+	color: blue;
 }
+
+.tm-nav .active a:active{
+	color: blue;
+}
+
 
 .tm-nav-deco {
   display: inline-block;
