@@ -42,13 +42,13 @@ h2 {
     background-color: #3b5999;
 }
 .social-menu ul li:nth-child(2) a:hover {
-    background-color: #55acee;
+    background-color: black;
 }
 .social-menu ul li:nth-child(3) a:hover {
     background-color: #e4405f;
 }
 .social-menu ul li:nth-child(4) a:hover {
-    background-color: #cd201f;
+    background-color: #00FFFF;
 }
 .social-menu ul li:nth-child(5) a:hover {
     background-color: #0077B5;
